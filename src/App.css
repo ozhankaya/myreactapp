@@ -1,43 +1,170 @@
-.App {
-  text-align: center;
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #2d3748;
+  text-decoration: none;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2rem 0;
+}
+
+.desktop-menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.desktop-menu ul li {
+  padding: 2rem 2rem;
+}
+
+.desktop-menu ul li:hover {
+  background-color: yellowgreen;
+  border-radius: 3px;
+}
+
+.reserve-btn {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: yellowgreen;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 
-ul li{
-  display: inline;
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #45FFCA;
+  border-radius: 10px;
+  padding-left: 2rem;
+}
+
+.introduction .tag-line {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #FEFF86
+}
+
+.introduction .main-line {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.introduction .hero-description, p, h5 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  max-width: 30rem;
+
+}
+
+.hero-image {
+  padding: 2rem;
+}
+
+.big-pic {
+
+  border-radius: 12px;
+
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.specials-text {
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #45FFCA;
+}
+
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-list {
+  display: none;
+}
+
+/* header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #45FFCA;
+} */
+
+.footer-logo {
+  width: 7rem;
+}
+
+
+.txt-dec-none {
+  text-decoration: none;
+  color: #495e57;
+}
+
+
+.footer-block {
+  display: block;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-row {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.block {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+.special-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
